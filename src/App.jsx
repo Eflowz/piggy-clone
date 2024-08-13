@@ -13,7 +13,6 @@ const router = createBrowserRouter (
     <Route path='/' element={<MainLayouts/>}>
     <Route index element={<Homepage />} />
       
-        
 
 
 </Route>

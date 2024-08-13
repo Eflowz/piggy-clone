@@ -6,7 +6,7 @@ import PadlockIcon from './PadlockIcon';
 
 const SecrityNotice = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center p-6 bg-gray-100">
+    <div className="flex flex-col lg:flex-row items-center p-6 bg-gray-100 px-26">
     <div className="mb-4 lg:mr-4 lg:mb-0">
       <PadlockIcon className="h-12 w-12" />
     </div>

@@ -32,7 +32,7 @@ const Navbar = () => {
     const short = () => 'hover:bg-gray-200 text-lg text-black font-semibold py-2 block rounded-lg' ;
     return (
       
-        <nav className={`p-6 sticky top-0 z-[20] mx-auto flex justify-around w-full md:w-auto ${scrolled ? 'bg-white' : 'bg-zinc-100'}`}>
+        <nav className={` p-3 sticky top-0 z-[20] mx-auto flex justify-around w-full md:w-auto ${scrolled ? 'bg-white' : 'bg-zinc-100'}`}>
         <div className="container mx-auto flex flex-wrap justify-between items-center">
           <div className="flex-shrink-0">
             <NavLink to="/"><img className="h-8 w-auto" src={logo} alt="PiggyVest" /></NavLink>

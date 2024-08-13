@@ -8,6 +8,8 @@ export default {
     extend: {
       spacing: {
         '24': '50px',
+        '24.2': '70px',
+        '24.3': '80px',
         '26': '100px',
         '29': '150px',
         '114': '8rem',
